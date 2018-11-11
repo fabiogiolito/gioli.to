@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+  background: #fff;
+  color: #22292F;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #22292F;
+    color: #F1F5F8;
+  }
+}
+
+article {
+  width: 100%;
+  max-width: 640px;
+  margin: 100px auto 200px;
+  padding: 0 20px;
+}
+
+ul {
+  color: #8795A1;
+  font-size: 0.5rem;
+  padding: 0 2em;
+}
+
+a {
+  color: #3490dc;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+h3 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-top: 2em;
+}
+
+small {
+  color: #8795A1;
+  padding: 0 0.5em;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 140px;
+  border-radius: 50%;
+  float: right;
+  margin: -1em 0 4em 4em;
+}
+
+@media (max-width: 580px) {
+  img {
+    float: none;
+    margin: -3em 0 0 0;
+    max-width: 100px;
+  }
+}
+
+ul {
+  display: inline-flex;
+  width: 100%;
+  max-width: 300px;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 3em;
+}
+
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(resources/icons.svg);
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  text-indent: 200%;
+  transition: transform ease 0.2s;
+}
+
+.icon:hover {
+  transform: translateY(-2px);
+}
+
+.icon-github {
+  background-position: 0 0;
+}
+
+.icon-instagram {
+  background-position: -48px 0;
+}
+
+.icon-linkedin {
+  background-position: -96px 0;
+}
+
+.icon-twitter {
+  background-position: -144px 0;
+}
+
+.icon-medium {
+  background-position: -192px 0;
+}
